@@ -1,4 +1,5 @@
 public interface Busquedas {
-    int linearSearch(int[] arrayPorExplorar, int elementoABuscar);
-    int binarySearch(int[] arrayPorExplorar);
+    int linearSearch(int[] arreglo, int objetivo);
+
+    int binarySearch(int[] arreglo, int objetivo);
 }
