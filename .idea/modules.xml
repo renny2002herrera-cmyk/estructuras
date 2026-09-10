@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/baraja-taller/baraja-taller.iml" filepath="$PROJECT_DIR$/baraja-taller/baraja-taller.iml" />
       <module fileurl="file://$PROJECT_DIR$/estructuras.iml" filepath="$PROJECT_DIR$/estructuras.iml" />
     </modules>
   </component>
