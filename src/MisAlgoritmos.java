@@ -11,6 +11,24 @@ public class MisAlgoritmos implements Busquedas, Ordenamientos {
         }
         return -1;
     }
+    @Override
+    public int[] insertionSort(int[] arreglo) {
+        int[] copia = Arrays.copyOf(arreglo, arreglo.length);
+
+        for (int i = 1; i < copia.length; i++) {
+            int actual = copia[i];
+            int j = i - 1;
+
+            while (j >= 0 && copia[j] > actual) {
+                copia[j + 1] = copia[j];
+                j--;
+            }
+
+            copia[j + 1] = actual;
+        }
+
+        return copia;
+    }
 
     @Override
     public int binarySearch(int[] arreglo, int objetivo) {

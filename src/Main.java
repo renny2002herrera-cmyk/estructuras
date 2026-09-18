@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+
         int[] miArray = {70, 12, 19, 45, 11, 33, 26};
 
         MisAlgoritmos misAlgoritmos = new MisAlgoritmos();
@@ -18,14 +19,14 @@ public class Main {
 
         System.out.println("Selection sort: " +
                 Arrays.toString(misAlgoritmos.selectionSort(miArray)));
+
+        System.out.println("Insertion sort: " +
+                Arrays.toString(misAlgoritmos.insertionSort(miArray)));
+
         System.out.println("Quick sort: " +
                 Arrays.toString(misAlgoritmos.quickSort(miArray)));
 
         System.out.println("Merge sort: " +
                 Arrays.toString(misAlgoritmos.mergeSort(miArray)));
-
-
-
     }
-
 }
