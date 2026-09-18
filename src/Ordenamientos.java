@@ -6,4 +6,6 @@ public interface Ordenamientos {
     int[] quickSort(int[] arreglo);
 
     int[] mergeSort(int[] arreglo);
+
+    int[] insertionSort(int[] arreglo);
 }

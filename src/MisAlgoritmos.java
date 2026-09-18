@@ -11,6 +11,8 @@ public class MisAlgoritmos implements Busquedas, Ordenamientos {
         }
         return -1;
     }
+
+    @Override
     public int[] insertionSort(int[] arreglo) {
         int[] copia = Arrays.copyOf(arreglo, arreglo.length);
 
